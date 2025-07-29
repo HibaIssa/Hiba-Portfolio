@@ -146,44 +146,43 @@
       color: #6a006a;
     }
 
-    .about-section {
-      margin-top: 2rem;
-      color: #2c003e;
-      font-size: 1rem;
-      line-height: 1.7;
-      border-radius: 20px;
-      padding: 2rem;
-      background-color: #fff0f7;
-      box-shadow: 0 0 20px rgba(255, 102, 179, 0.619);
-    }
-    .experience-section {
-      margin-top: 2rem;
-      color: #2c003e;
-      font-size: 1rem;
-      line-height: 1.7;
-      border-radius: 20px;
-      padding: 2rem;
-      background-color: #fff0f7;
-      box-shadow: 0 0 20px rgba(255, 102, 179, 0.605);
-    }
-    .experience-section h1 {
-      font-size: 1.8rem;
-      color: #cc007a;
-      margin-bottom: 1rem;
-    }
-    .experience-section:hover {
-      transform: translateY(-5px);
-    }
-    .about-section:hover {
-      transform: translateY(-5px);
-    }
+  .about-section, .experience-section {
+  margin-top: 2rem;
+  color: #2c003e;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  border-radius: 24px;
+  padding: 2.5rem;
+  background: linear-gradient(120deg, #fff0f7 60%, #e0f7fa 100%);
+  box-shadow: 0 8px 32px rgba(255, 102, 178, 0.13), 0 1.5px 8px rgba(0, 188, 212, 0.09);
+  border: 1px solid #ffe1f0;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
 
-    .about-section h1 {
-      font-size: 1.8rem;
-      color: #cc007a;
-      margin-bottom: 1rem;
-    }
+.about-section:hover, .experience-section:hover {
+  box-shadow: 0 12px 40px rgba(255, 102, 178, 0.22), 0 2px 12px rgba(0, 188, 212, 0.15);
+  transform: translateY(-6px) scale(1.02);
+}
 
+.about-section h1, .experience-section h1 {
+  font-size: 2rem;
+  color: #cc007a;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #ffe1f0;
+}
+
+.about-section ul, .experience-section ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  color: #66004d;
+  font-size: 1.05rem;
+}
+
+.about-section p, .experience-section p {
+  margin-bottom: 1.1rem;
+  color: #3d004d;
+}
     footer:last-of-type {
       text-align: center;
       margin-top: 2.5rem;
